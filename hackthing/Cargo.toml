@@ -1,0 +1,8 @@
+[package]
+name = "hackthing"
+version = "0.1.0"
+authors = ["Serena Tiede <serena.tiede@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+nix = { version = "0.25.0", features = ["aio", "fs", "hostname", "ioctl", "socket"] }
